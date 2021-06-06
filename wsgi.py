@@ -3,7 +3,7 @@
 
 import cherrypy
 
-import app
+from saltbucket import app
 
 def get_application(*args):
   opts_tuple = args
