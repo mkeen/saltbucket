@@ -3,6 +3,9 @@
 
 import cherrypy
 
+import sys
+sys.path.append('./')
+
 from saltbucket import app
 
 def get_application(*args):
