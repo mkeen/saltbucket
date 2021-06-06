@@ -3,7 +3,7 @@
 
 import cherrypy
 
-from . import app
+import app
 
 def get_application(*args):
   opts_tuple = args
