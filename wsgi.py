@@ -1,12 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
-import os
-import sys
 import cherrypy
 
-sys.path.append(os.getcwd())
-
-from saltbucket import app
+from .saltbucket import app
 
 def get_application(*args):
   opts_tuple = args
