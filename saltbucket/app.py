@@ -1,5 +1,3 @@
-#from salt.runner import RunnerClient
-
 import cherrypy
 
 logger = logging.getLogger(__name__)
