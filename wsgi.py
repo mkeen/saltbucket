@@ -2,8 +2,6 @@
 # encoding: utf-8
 import cherrypy
 
-import saltbucket
-
 logger = logging.getLogger(__name__)
 
 class app(object):
